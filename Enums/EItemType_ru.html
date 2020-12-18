@@ -20,9 +20,19 @@
 <body>
 	<h1><strong style="font-family:Tahoma; font-weight: 600;">Enum EItemType</strong></h1>
 	<p>
-		<h3 style="font-family:Tahoma; font-weight: 400;"><strong style="color:0d98ba">Item Definition</strong> это базовый класс для всех предметов. Инвентарь играет очень большую роль в наших играх, так как через него проходит больше, чем просто предметы игрока: большое количество проверок и так же инвентарь используется системой способностей.</h3>
+		<h3 style="font-family:Tahoma; font-weight: 400;"><strong style="color:0d98ba">EItemType</strong> определяет тип прдемета.</h3>
 	</p>
-	<p><h3><strong style="font-family:Tahoma; font-size:18px; font-weight: 400;">Базовый набор перменных в классе <strong style="color:0d98ba">UItemDefinition</strong>.</strong></h3></p>
+	<p style="font-family:Courier New; font-weight: 400; background-color:b2b4cc">
+		<h3>UENUM(Blueprintype)
+		enum class EItemType : uint8
+		{
+			Item,
+			WeaponRanged,
+			WeaponMelee,
+			Gadget
+		}
+		</h3>
+	</p>
 </body>
 
 </html>
